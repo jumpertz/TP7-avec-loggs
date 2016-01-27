@@ -2,6 +2,7 @@ package projetoffresstage;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import static projetoffresstage.MainProjet.logger;
 
 /**
  *
@@ -130,25 +131,31 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCreerEntrepriseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreerEntrepriseActionPerformed
-        MainProjet.logger.fine("On a cliqué sur le bouton de création d'entreprise !");
+        MainProjet.logger.info("On a cliqué sur le bouton de création d'entreprise !");
         MainProjet.logger.entering(MainProjet.class.getName(),"btnEnvoyerActionPerformed");
         MenuCreationEntreprise a = new MenuCreationEntreprise();
         a.setVisible(true);
+        
+        //logger.setLevel(Level.FINER);
     }//GEN-LAST:event_btnCreerEntrepriseActionPerformed
 
     private void btnAnnulerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAnnulerActionPerformed
-        MainProjet.logger.fine("On a arrêté l'application !");
+        MainProjet.logger.info("On a arrêté l'application !");
         System.exit(0);
     }//GEN-LAST:event_btnAnnulerActionPerformed
 
     private void btnSaisieOffreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaisieOffreActionPerformed
         MenuSaisie s = new MenuSaisie();
         s.setVisible(true);
+        
+        //logger.setLevel(Level.FINER);
     }//GEN-LAST:event_btnSaisieOffreActionPerformed
 
     private void btnConsulterOffresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConsulterOffresActionPerformed
         MenuConsulter c = new MenuConsulter();
         c.setVisible(true);
+        
+        //logger.setLevel(Level.FINER);
     }//GEN-LAST:event_btnConsulterOffresActionPerformed
 
     /**

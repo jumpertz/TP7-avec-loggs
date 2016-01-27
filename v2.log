@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-01-21T17:38:33</date>
+  <millis>1453394313153</millis>
+  <sequence>0</sequence>
+  <logger>Mes premiers loggers</logger>
+  <level>INFO</level>
+  <class>projetoffresstage.MainProjet</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Test du FileHandler</message>
+</record>
+<record>
+  <date>2016-01-21T17:38:34</date>
+  <millis>1453394314917</millis>
+  <sequence>1</sequence>
+  <logger>Mes premiers loggers</logger>
+  <level>INFO</level>
+  <class>projetoffresstage.MenuPrincipal</class>
+  <method>btnCreerEntrepriseActionPerformed</method>
+  <thread>12</thread>
+  <message>On a cliqué sur le bouton de création d'entreprise !</message>
+</record>
+<record>
+  <date>2016-01-21T17:38:36</date>
+  <millis>1453394316805</millis>
+  <sequence>2</sequence>
+  <logger>Mes premiers loggers</logger>
+  <level>INFO</level>
+  <class>projetoffresstage.MenuPrincipal</class>
+  <method>btnAnnulerActionPerformed</method>
+  <thread>12</thread>
+  <message>On a arrêté l'application !</message>
+</record>
+</log>
